@@ -1,7 +1,6 @@
-Released under FOSS license
-http://freeopensourcesoftware.org/index.php?title=Main_Page
+# Minetest mod pure_decor 0.001
 
-Minetest mod pure_decor
+Released under LGPLv2.1 license
 
 This mod is designed to be used in creative mode. Because the nodes are easily changed added to and replaced
 there are no recipes available to access them. They either require the creative inventory or giveme command.
