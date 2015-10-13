@@ -2,6 +2,8 @@
 
 Released under LGPLv2.1 license
 
+rename directory to pure_decor when installing.
+
 This mod is designed to be used in creative mode. Because the nodes are easily changed added to and replaced
 there are no recipes available to access them. They either require the creative inventory or giveme command.
 
