@@ -1,13 +1,13 @@
-# Minetest mod pure_decor 0.001
+Released under FOSS license
+http://freeopensourcesoftware.org/index.php?title=Main_Page
 
-Released under LGPLv2.1 license
-
-rename directory to pure_decor when installing.
+Minetest mod pure_decor
 
 This mod is designed to be used in creative mode. Because the nodes are easily changed added to and replaced
 there are no recipes available to access them. They either require the creative inventory or giveme command.
 
 Nodes are easily removed and or added to create your own custom set of blocks in a creative world.
+Added lit version of blocks for lighting effects.
 
 Create a seamless tile image in 8x8, 16x16, 32x32, 64x64, etc. in .png format and add to the textures directory.
 Add that images name without the .png extension into the nodelist.lua file.
@@ -19,7 +19,10 @@ Put the block on the circular saw and there you go. :)
 
 If you are using the stand alone stairs plus it can use that as well. This mod was built to prefer moreblocks though.
 
+Will now also register with columnia mod. Highly recommended.
+
 Created using the most recent github versions of the above mentioned mods. If using older versions there may be errors.
+Will work without the above mods installed but will be very limited.
 
 If you are not using either of those mods it will register with the default stairs mod.
 

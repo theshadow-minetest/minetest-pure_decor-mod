@@ -13,7 +13,20 @@ for x,v in pairs(nodelist) do
 		tiles = {
 			v..".png"},
 		drawtype = "normal",
-		--paramtype = "light",
+		light_source = 1,
+		is_ground_content = false,
+		groups = {cracky = 2, oddly_breakable_by_hand=2},
+		sounds = default.node_sound_stone_defaults()
+	})
+end
+
+for x,v in pairs(nodelist) do
+	minetest.register_node(thismod..":"..v.."_lit", {
+		description = v.."_lit",
+		tiles = {
+			v..".png"},
+		drawtype = "normal",
+		light_source = 11,
 		is_ground_content = false,
 		groups = {cracky = 2, oddly_breakable_by_hand=2},
 		sounds = default.node_sound_stone_defaults()
@@ -27,4 +40,9 @@ if minetest.get_modpath("moreblocks") then
 			usestairsplus()
 				else
 					usedefault()
+end
+
+-- ***************** register columns *******************
+if minetest.get_modpath("columnia") then
+	usecolumnia()
 end
